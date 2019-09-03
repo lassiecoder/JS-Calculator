@@ -1,0 +1,51 @@
+body
+{
+  background-image: url("https://i.imgur.com/mSPU63U.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+table
+{
+  font-family: 'Lato', sans-serif;
+  width: 20%;
+  margin: 140px auto;
+  border-left: none;
+  border-right: none;
+  border-top: 10px solid rgb(70, 69, 69);
+  border-bottom: 5px solid rgb(70, 69, 69);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-spacing: 0;
+}
+td
+{
+  border-style: none;
+  background-color: rgb(70, 69, 69); 
+}
+input[type="button"] 
+{ 
+  background-color:rgb(70, 69, 69); 
+  color: white; 
+  width:100%;
+  height: 70px;
+  font-size: 25px;
+  border: none;
+  border-spacing: 0;
+}
+input[type="button"]:focus
+{
+  outline: none;
+}
+input[type="text"] 
+{ 
+  background-color:white; 
+  width:100%;
+  height: 120px;
+  font-size: 30px;
+  border: none;
+}
